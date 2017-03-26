@@ -1,0 +1,44 @@
+#+TITLE: Proposal for Network Monitoring and Configuration System 
+#+AUTHOR: Sabin Nepal
+#+AUTHOR: Aruna Shrestha
+#+AUTHOR: Rajan Bhattarai
+#+AUTHOR: Achyut Dahal
+#+EMAIL: reddevil.sabin@gmail.com
+#+OPTIONS: H:1 num:nil toc:nil @:t ::t |:t ^:nil -:t f:t *:t <:t \n:nil
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS:[article,a4paper,times,12pt,listings-bw,microtype,DIV=5]
+#+LATEX_HEADER:
+#+LATEX_HEADER_EXTRA:
+#+DESCRIPTION:A network monitoring and configuration system using snmp protocol 
+#+SUBTITLE:What the heck?
+#+LATEX_COMPILER: pdflatex
+#+DATE: \today
+
+
+
+* Introduction 
+	A computer network consists of network elements like nodes,links,routers etc.The network administrator(manager) is the who manages the network.
+Administrator faces problems in managing the network.Network Monitoring system plays a significant role in the network management.A network monitoring system lets the administrator know how well the network is running during the course of oridinary operations.Network Monitoring is essential in an active network in order to diagnose problems and gather statistics for administration and fine tuning.A NMS can provide various monitoring techniques including grpahing,notification system and configuration management.
+
+* Problem Statement 
+	
+
+* Objective
+	
+* Scope and Limitation 
+
+
+* Methodology 
+** Requirement Identification 
+	 - Study of existing system
+	 - Requirement Collection 
+** Feasibility Study 
+	 - Technical
+	 - Operational
+	 - Economical 
+** Tools 
+	 - Analysis and Design Tools
+	 - Implementation tools(Front End, Back End)
+* High level design of Proposed System 
+* Gantt Chart showing the projected time planning
+* Expected Outcome
