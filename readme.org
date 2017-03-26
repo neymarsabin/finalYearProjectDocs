@@ -20,9 +20,9 @@
 	git clone <ssh/https/url>
 	#+END_SRC
 	To make changes to the docs: 
-	#+BEGIN_NOTES
+	#+BEGIN_EXAMPLE
 	You can use EMACS or libreoffice or MSoffice to make the docs.Platform independent:
-	#+END_NOTES
+	#+END_EXAMPLE
 	Now, Create A New Branch: 
 	#+BEGIN_SRC sh 
 	git checkout -b my_branch 
@@ -34,6 +34,6 @@
 	git push origin <your branch name> 
 	#+END_SRC
 	And I will review the changes and merge them to the master branch.
-	#+BEGIN_NOTES
+	#+BEGIN_EXAMPLE
 	Please donot directly make changes to the master branch.
-	#+END_NOTES
+	#+END_EXAMPLE
