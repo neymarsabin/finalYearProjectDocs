@@ -14,24 +14,34 @@
 
 * Introduction 
 	A computer network consists of network elements like nodes,links,routers etc.The network administrator(manager) is the who manages the network.Administrator faces problems in managing the network.Network Monitoring system plays a significant role in the network management.A network monitoring system lets the administrator know how well the network is running during the course of oridinary operations.Network Monitoring is essential in an active network in order to diagnose problems and gather statistics for administration and fine tuning.A NMS can provide various monitoring techniques including grpahing,notification system and configuration management.
- 
 
 * Problem Statement 
-	System and Network administrators are responsible when something goes wrong on the network.They have no information of what may have caused a network failure.This is more so on computer networks that do not have any high grade network monitoring software installed.This scenario is common place in academic institutions because of mentioned reasons.This was the main purpose for the study and project development. 
+	System and Network administrators are responsible when something goes wrong on the network.They have no information of what may have caused a network failure.This is more so on computer networks that do not have any high grade network monitoring software installed.This scenario is common place in academic institutions because of mentioned reasons.This was the main purpose for the study and project development.
+	Monitoring data rate and traffic within an organization or an office is must when there is limited availability of various resources and more number of people.Inappropriate traffic can slow the network down,or even bring it to a complete shutdown,causing frustration to legitimate users of the traffic.
 
 * Objective
 	The system aims to provide a medium to the administrator of the network to be able to view the data statisticts of the various clients or devices connected to the network.The following are the objectives of the network monitoring and configuration system: 
-	- To 
-	
-
+	- To find the best network monitoring solution from a system administration point of view
+	- To be able to give the administrators able to view the data traffic or usage statistics be each client in the organization.
+	- To display the data usage statistics in form of graph for each client in the browser.
+	- To provide the administrator a nice graphical interface 
+	- To configure client devices and computers 
+	- To monitor  TCP as well as UDP data traffic that is flowing through various interfaces of the client computer.
 
 
 * Scope and Limitation 
+	The network monitoring system can is essential to various organizations or offices, computer labs. The system can also be used in monitor and configure remote servers.
+ 
 	
-	
+
+
+** Limitation 
+	 
+
 
 
 * Methodology 
+	- 
 ** Requirement Identification 
 	 - Study of existing system
 	 - Requirement Collection 
@@ -43,5 +53,12 @@
 	 - Analysis and Design Tools
 	 - Implementation tools(Front End, Back End)
 * High level design of Proposed System 
+
+
+
+	
 * Gantt Chart showing the projected time planning
-* Expected Outcome
+
+
+
+* Expected Outcomes 
