@@ -1,0 +1,39 @@
+#+TITLE: Final Year Project Documentation 
+#+AUTHOR: neymarsabin
+#+EMAIL: reddevil.sabin@gmail.com
+#+OPTIONS: H:1 num:nil toc:nil
+#+DATE: 2017:03:26
+
+
+* Introduction 
+	This repo is the collection of all documentations of the final year project by (Team Envianto).
+
+* Team Members 
+	- Sabin Nepal
+	- Aruna Shrestha
+	- Rajan Bhattarai
+	- Achyut Dahal
+
+* Collaboration
+	First of all clone the repository into your local computer:
+	#+BEGIN_SRC sh 
+	git clone <ssh/https/url>
+	#+END_SRC
+	To make changes to the docs: 
+	#+BEGIN_NOTES
+	You can use EMACS or libreoffice or MSoffice to make the docs.Platform independent:
+	#+END_NOTES
+	Now, Create A New Branch: 
+	#+BEGIN_SRC sh 
+	git checkout -b my_branch 
+	#+END_SRC
+	Do your changes in the ~.org~ file or ~.docx~ file as per your wish...and 
+	#+BEGIN_SRC sh 
+	git add <your changes> 
+	git commit -m "some commit message "
+	git push origin <your branch name> 
+	#+END_SRC
+	And I will review the changes and merge them to the master branch.
+	#+BEGIN_NOTES
+	Please donot directly make changes to the master branch.
+	#+END_NOTES
