@@ -13,27 +13,25 @@
 
 
 * Introduction 
-	A computer network consists of network elements like nodes,links,routers etc.The network administrator(manager) is the who manages the network.Administrator faces problems in managing the network.Network Monitoring system plays a significant role in the network management.A network monitoring system lets the administrator know how well the network is running during the course of oridinary operations.Network Monitoring is essential in an active network in order to diagnose problems and gather statistics for administration and fine tuning.A NMS can provide various monitoring techniques including grpahing,notification system and configuration management.
-
+	A computer network consists of network elements like nodes,links,routers etc.The network administrator(manager) is the one  who manages the network.Administrator faces problems in managing the network.Network Monitoring system plays significant role in the network management.A network monitoring system lets the administrator know how well the network is running during the course of oridinary operations.Network Monitoring is essential in an active network in order to diagnose problems and gather statistics for administration and fine tuning.A network management system provides various monitoring techniques including grpahing,notification system and configuration management. \\
+	In the proposed system we introduce a session based strategy for the administrator of the network to be able to add or remove clients devices based on their ip address and be set time based frequency to update the statistics of the data usage.The admin of the system log in to the browser and a dashboard is presented with the graphical display of the data traffic and tabulated form of client information.The admin is able to do administrative tasks like adding a device,editing,deleting and configuring etc.The proposed system tends to use SNMPv3(Simple Network Management Protocol) for the monitoring and configuration of the client devices which are also called agents.The system tends to provide benefits for small or medium sized organizations and institutions.
+	
 * Problem Statement 
-	System and Network administrators are responsible when something goes wrong on the network.They have no information of what may have caused a network failure.This is more so on computer networks that do not have any high grade network monitoring software installed.This scenario is common place in academic institutions because of mentioned reasons.This was the main purpose for the study and project development.
+	System and Network administrators are responsible when something goes wrong on the network.They have no information of what may have caused a network failure.This is more so on computer networks that do not have any high grade network monitoring software installed.This scenario is common place in academic institutions because of mentioned reasons.This was the main purpose for the study and project development. \\
 	Monitoring data rate and traffic within an organization or an office is must when there is limited availability of various resources and more number of people.Inappropriate traffic can slow the network down,or even bring it to a complete shutdown,causing frustration to legitimate users of the traffic.
 
 * Objective
-	The system aims to provide a medium to the administrator of the network to be able to view the data statisticts of the various clients or devices connected to the network.The following are the objectives of the network monitoring and configuration system: 
+	Our project aims to provide a medium to the administrator of the network to be able to view the data statistics of the various clients or devices connected to the network.Our objective is to develop a full fledged system giving details about the local network.The following are the objectives of the network monitoring and configuration system: 
 	- To find the best network monitoring solution from a system administration point of view
 	- To be able to give the administrators able to view the data traffic or usage statistics be each client in the organization.
 	- To display the data usage statistics in form of graph for each client in the browser.
-	- To provide the administrator a nice graphical interface 
-	- To configure client devices and computers 
-	- To monitor  TCP as well as UDP data traffic that is flowing through various interfaces of the client computer.
+	- To provide an easy and effective graphical interface to the administrator to perform tasks appropriately
+	- To configure client devices 
+# 	- To monitor  TCP/UDP data traffic that is flowing through various interfaces of the client computer.
 
 
 * Scope and Limitation 
-	The network monitoring system can is essential to various organizations or offices, computer labs. The system can also be used in monitor and configure remote servers.
- 
-	
-
+	The network monitoring system can be widely used in networks of organization where a number of computer systems are connected to each other.These organizations can be software development firms,universities and colleges etc.
 
 ** Limitation 
 	 
@@ -41,17 +39,40 @@
 
 
 * Methodology 
-	- 
 ** Requirement Identification 
-	 - Study of existing system
-	 - Requirement Collection 
+	 
+*** Similar Works 
+		Some of the existing works to the proposed Network Monitoring Application are discussed in this part.For each of the system, short description of the system with their pros and cons are discussed in the following section: 
+		1) Cacti \\
+			 Cacti is a network monitoring system designed for drawing time-series graphs of performance data on a monitored network.It stores all of the necessary information to create graphs and populate them with data in MySQL database[5]..Data to be graphed in Cacti is collected using SNMP(simple network management protocol) at a specified rate.This defaults to five minutes but with some effort can be reduced to shorter rate.The application draws each graph for a different graph for each monitored data source.A user management system tool is built in so that users can be added and given rights to certain areas of cacti.Cacti doesnot have event detection system or a notification system.\\
+
+		2) Wireshark \\ 
+			 Wireshark is a network packet analyzer.A network packet analyzer will try to capture network packets and tries to display that packet data as detailed as possible.It can be thought of as measuring device used to examine what's going on inside a network cable.Wireshark can capture traffic from many different network media types - and despite it's name - including wireless LAN as well.Which media types are supported depend on many things like the operating system in use.But to understand what's going on inside the network, manual deciphering is nescessary.Wireshark will not manipulate things on the network, it will only measure things from it.
+			 
+*** Software and Hardware Requirements 
+		1. For client machine: \\
+			 The client machine can be Windows or Linux based operating system.The client machine should have SNMP-Agent application to be installed.For linux based client devices, *net-snmp* package installed which is an agent for the application running on the server and similarly in snmp-agent service enabled in the windows operating system.The client machine also should have static ip assigned.
+		2. For server machine: \\
+			 The server machine should have Ruby and Rails installed with a mysql database server.Works best when operated in Linux based server with minimum of 1GB Random Access Memory and 40Gig a Bytes of Hard Disk and processor of Pentium Dual Core or above.Ubuntu 16.04 Xenial Xerus LTS can be used as a server for the application.Ruby(latest version) and Rails 5.0.2 is required for the application with Puma Web server is required(default with Rails).Latest MySQL server compatible with Rails application is essential.
+
 ** Feasibility Study 
 	 - Technical
 	 - Operational
 	 - Economical 
 ** Tools 
-	 - Analysis and Design Tools
-	 - Implementation tools(Front End, Back End)
+*** Analysis and Design Tools
+		
+
+***  Implementation tools
+		1) Front-End \\
+			 As the network monitoring system is a web-based application, the front-end of the application is going to implemented using HTML,CSS and JavaScript.
+		2) Back-End \\
+			 The server side programming language of the application is Ruby and the framework we are going to use is Ruby on Rails framework.Ruby is an object oriented programming language which believes in making programmers happy.The Ruby programming language is rich in various libraries, that can be used within the application.
+		3) Editor \\
+			 Any editor supporting Rails framework can be used.
+			 
+
+
 * High level design of Proposed System 
 
 
