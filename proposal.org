@@ -1,14 +1,11 @@
-#+TITLE: Proposal for Network Monitoring and Configuration System 
+#+TITLE: Network Monitoring System 
 #+AUTHOR: Sabin Nepal
 #+AUTHOR: Aruna Shrestha
 #+AUTHOR: Rajan Bhattarai
 #+AUTHOR: Achyut Dahal
 #+EMAIL: reddevil.sabin@gmail.com
 #+OPTIONS: H:1 num:nil toc:nil @:t ::t |:t ^:nil -:t f:t *:t <:t \n:nil
-#+LATEX_CLASS: article
-#+LATEX_CLASS_OPTIONS:[article,a4paper,times,12pt,listings-bw,microtype,DIV=5]
-#+LATEX_HEADER:
-#+LATEX_HEADER_EXTRA:
+#+LATEX_CLASS: bjmarticle
 #+DESCRIPTION:A network monitoring and configuration system using snmp protocol 
 #+SUBTITLE:What the heck?
 #+LATEX_COMPILER: pdflatex
@@ -17,15 +14,22 @@
 
 
 * Introduction 
-	A computer network consists of network elements like nodes,links,routers etc.The network administrator(manager) is the who manages the network.
-Administrator faces problems in managing the network.Network Monitoring system plays a significant role in the network management.A network monitoring system lets the administrator know how well the network is running during the course of oridinary operations.Network Monitoring is essential in an active network in order to diagnose problems and gather statistics for administration and fine tuning.A NMS can provide various monitoring techniques including grpahing,notification system and configuration management.
+	A computer network consists of network elements like nodes,links,routers etc.The network administrator(manager) is the who manages the network.Administrator faces problems in managing the network.Network Monitoring system plays a significant role in the network management.A network monitoring system lets the administrator know how well the network is running during the course of oridinary operations.Network Monitoring is essential in an active network in order to diagnose problems and gather statistics for administration and fine tuning.A NMS can provide various monitoring techniques including grpahing,notification system and configuration management.
+ 
 
 * Problem Statement 
-	
+	System and Network administrators are responsible when something goes wrong on the network.They have no information of what may have caused a network failure.This is more so on computer networks that do not have any high grade network monitoring software installed.This scenario is common place in academic institutions because of mentioned reasons.This was the main purpose for the study and project development. 
 
 * Objective
+	The system aims to provide a medium to the administrator of the network to be able to view the data statisticts of the various clients or devices connected to the network.The following are the objectives of the network monitoring and configuration system: 
+	- To 
 	
+
+
+
 * Scope and Limitation 
+	
+	
 
 
 * Methodology 
