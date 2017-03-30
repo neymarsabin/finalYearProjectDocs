@@ -1,0 +1,18 @@
+#+TITLE: Proposal for project work 
+#+OPTIONS: H:3 num:t toc:t
+#+DATE: 2017:march:29
+#+AUTHOR: neymarsabin
+#+EMAIL: reddevil.sabin@gmail.com
+#+LATEX_CLASS: bjmarticle
+#+LATEX_HEADER:
+#+LATEX_HEADER_EXTRA:
+#+DESCRIPTION:
+#+LATEX_COMPILER: pdflatex
+#+DATE: \today
+
+* Left and right spacing of documents 
+Amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci, a scelerisque purus semper eget duis at!
+Mauris pellentesque pulvinar pellentesque habitant! Vel risus commodo viverra maecenas accumsan, lacus vel facilisis volutpat, est velit egestas dui, id ornare arcu odio ut sem nulla pharetra diam sit amet.
+Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales ut eu sem integer vitae justo. Laoreet suspendisse interdum consectetur libero, id faucibus nisl tincidunt eget nullam!
+Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum, odio eu feugiat pretium, nibh. Pharetra diam sit amet nisl suscipit adipiscing bibendum est.
+	
