@@ -1,0 +1,108 @@
+#+TITLE: A Proposal On Network Monitoring System 
+#+OPTIONS: H:2 num:nil toc:nil html-postamble:nil
+#+AUTHOR: Achyut Dahal(3653),Aruna Shrestha(3655),Rajan Bhattarai(3667),Sabin Nepal(3672)
+#+REVEAL_THEME: night
+#+EMAIL: reddevil.sabin@gmail.com
+#+REVEAL_EXTRA_CSS: ./custom.css
+#+OPTIONS: reveal_center:t reveal_control:t reveal_height:-1
+#+OPTIONS: reveal_history:nil reveal_keyboard:t reveal_overview:t
+#+OPTIONS: reveal_progress:t reveal_rolling_links:nil
+#+OPTIONS: reveal_single_file:t reveal_slide_number:"c"
+#+OPTIONS: reveal_title_slide:nil reveal_width:-1
+#+REVEAL_MARGIN: -1
+#+REVEAL_MIN_SCALE: -1
+#+REVEAL_MAX_SCALE: -1
+#+REVEAL_ROOT: file:///mnt/hackit/codeds/github-repos/reveal.js/reveal.js
+#+REVEAL_TRANS: none
+#+REVEAL_SPEED: default
+#+REVEAL_MATHJAX_URL: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+#+REVEAL_PREAMBLE:
+#+REVEAL_HEAD_PREAMBLE:
+#+REVEAL_HIGHLIGHT_CSS: %r/lib/css/zenburn.css
+
+
+* *Network Monitoring System*
+	*PROPOSAL*
+	
+	1. Achyut Dahal(3653)
+	2. Aruna Shrestha(3655)
+	3. Rajan Bhattarai(3667)
+	4. Sabin Nepal(3672)
+	 
+*  Contents 
+	- Introduction
+	- Problem Statement
+	- Objective
+	- Scope and Limitation
+	- Software and Hardware requirements
+	- Feasibility Study
+	- Designs Of Proposed System
+	- Working Timeline
+	- Expected Outcome 
+
+* Introduction 
+	- Session based strategy for the administrator
+	- Monitoring client devices through the use of SNMP 
+	- Suited for small or medium sized organizations and institutions
+
+* Problem Statement 
+	- Network Failure 
+	- Common In Academic Institutions
+	- Limited Amount Of Resources
+	- Cost of the enterprise software  
+
+* Objective
+	- Network monitoring solution
+	- Data usage statistics
+	- Monitoring and configuration
+
+* Scope 
+	- Software development firms
+	- Colleges and schools 
+	- Startup and small organizations 
+
+* Limitation 
+	- Requirement of Semi-skilled or skilled manpower 
+	- No alert or event system
+	- Focused on linux based environment 
+
+* Software and Hardware requirements 
+	- For client machine
+		- SNMP agent
+		- Static ip assigned
+		- SSH server 
+	- For Server machine 
+		- Ruby on Rails compatible
+		- 40GB Hard Disk,4GB RAM
+		- Best With Ubuntu 16.10(LTS)
+
+* Feasibility Study 
+	- Technical Feasibility
+	- Operation Feasibility
+	- Economical Feasibility 
+
+* 
+	#+ATTR_HTML: :height 550px :width 500px
+	#+caption: System Activity Diagram
+	[[file:./diagrams/activity.jpg]]
+
+
+* 
+	#+ATTR_HTML: :width 500px :height 550px
+	#+caption: Use Case Diagram
+	 [[file:./diagrams/new.jpg]]
+
+
+* Working Timeline 
+	[[file:./diagrams/work-week.png]]
+
+
+* Expected Outcome
+	- User Friendly System
+	- Admin Dashboard
+
+
+* Thank You 
+	#+BEGIN_QUOTE
+	Any Questions??? 
+	#+END_QUOTE
