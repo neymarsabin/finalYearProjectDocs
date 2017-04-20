@@ -91,18 +91,18 @@
 
 * 
 	#+ATTR_HTML: :height 550px :width 500px
-	#+caption: System Activity Diagrams
-	[[file:./diagrams/activity.jpg]]
+	#+caption: System Context Diagram
+	[[file:../diagrams/proo.png]]
 
 
 * 
 	#+ATTR_HTML: :width 500px :height 550px
 	#+caption: Use Case Diagram
-	 [[file:./diagrams/new.jpg]]
+	 [[file:../diagrams/new.jpg]]
 
 
 * Working Timeline 
-	[[file:./diagrams/work-week.png]]
+	[[file:../diagrams/work-week.png]]
 
 
 
