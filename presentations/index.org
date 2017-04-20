@@ -32,58 +32,66 @@
 *  Contents 
 	- Introduction
 	- Problem Statement
-	- Objective
-	- Scope and Limitation
+	- Objective and Scope
+	- Methodology
 	- Software and Hardware requirements
 	- Feasibility Study
 	- Designs Of Proposed System
-	- Working Timeline
 	- Expected Outcome 
 
 * Introduction 
-	- Session based strategy for the administrator
+	- Session based strategy for the Network Administrator
 	- Monitoring client devices through the use of SNMP 
-	- Suited for small or medium sized organizations and institutions
+	- Suited for small sized organizations and institutions
+	- Web application to view data usage of the clients connected to the network
 
 * Problem Statement 
-	- Network Failure 
-	- Common In Academic Institutions
-	- Limited Amount Of Resources
-	- Cost of the enterprise software  
+	- Unknown causes for network failures 
+	- Limited amount of resources on network monitoring in organizations
+	- Cost of Enterprise softwares 
 
 * Objective
-	- Network monitoring solution
-	- Data usage statistics
-	- Monitoring and configuration
+	- To provide a network monitoring solution for network administrators 
+	- To present the admin an effective graphical view of data usage statisticts
+
 
 * Scope 
-	- Software development firms
+	- Software development firms 
 	- Colleges and schools 
 	- Startup and small organizations 
 
-* Limitation 
-	- Requirement of Semi-skilled or skilled manpower 
-	- No alert or event system
-	- Focused on linux based environment 
+* Methodology 
+	- *Software development lifecycle*
+		- 
+	- *Some existing systems*
+   	- Cacti
 
 * Software and Hardware requirements 
 	- For client machine
 		- SNMP agent
-		- Static ip assigned
+		- Asigned Static IP 
 		- SSH server 
 	- For Server machine 
-		- Ruby on Rails compatible
-		- 40GB Hard Disk,4GB RAM
-		- Best With Ubuntu 16.10(LTS)
+		- Ruby and Rails 
+		- Linux Operating System
 
 * Feasibility Study 
 	- Technical Feasibility
-	- Operation Feasibility
-	- Economical Feasibility 
+		- Easy to configure and install server and client machines 
+	- Operational Feasibility
+		- Continuous monitoring and easy to access to view and analyze the usage
+	- Economical Feasibility
+		- Free to use and less complexity in installation of system
+
+* Tools 
+	- Front-End 
+		- HTML,CSS,JavaScript
+	- Back-End
+		- Ruby and Rails,MySQL
 
 * 
 	#+ATTR_HTML: :height 550px :width 500px
-	#+caption: System Activity Diagram
+	#+caption: System Activity Diagrams
 	[[file:./diagrams/activity.jpg]]
 
 
@@ -97,10 +105,11 @@
 	[[file:./diagrams/work-week.png]]
 
 
-* Expected Outcome
-	- User Friendly System
-	- Admin Dashboard
 
+* Expected Outcome
+	- Easy to use admin dashboard with full information about client
+	- Easily configurable system
+	- Cross browser compatible system
 
 * Thank You 
 	#+BEGIN_QUOTE
