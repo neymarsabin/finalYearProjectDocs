@@ -62,7 +62,7 @@
 
 * Methodology 
 	- *Software development lifecycle*
-		- 
+		- Test Driven Approach
 	- *Some existing systems*
    	- Cacti
 
@@ -70,7 +70,6 @@
 	- For client machine
 		- SNMP agent
 		- Asigned Static IP 
-		- SSH server 
 	- For Server machine 
 		- Ruby and Rails 
 		- Linux Operating System
@@ -90,9 +89,9 @@
 		- Ruby and Rails,MySQL
 
 * 
-	#+ATTR_HTML: :height 550px :width 500px
+	#+ATTR_HTML: :height 550px :width 700px
 	#+caption: System Context Diagram
-	[[file:../diagrams/proo.png]]
+	[[file:../diagrams/refinedCD.jpg]]
 
 
 * 
@@ -103,8 +102,7 @@
 
 * Working Timeline 
 	[[file:../diagrams/work-week.png]]
-
-
+	
 
 * Expected Outcome
 	- Easy to use admin dashboard with full information about client
